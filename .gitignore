@@ -1,0 +1,9 @@
+pqc-env/
+liboqs/
+__pycache__/
+*.pyc
+*.log
+*.Zone.Identifier
+logs/
+debug_*.py
+test_sec_gemini*.py
