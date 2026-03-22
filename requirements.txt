@@ -1,0 +1,7 @@
+anthropic
+ollama
+pandas
+numpy
+scipy
+requests
+python-dotenv
