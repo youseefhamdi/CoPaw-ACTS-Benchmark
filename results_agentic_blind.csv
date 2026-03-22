@@ -1,0 +1,8 @@
+UNKNOWN_ID,ALGO,KEYSIZE,BREAKABLE,REASONING,CONFIDENCE
+unknown_A.bin,AES,128,NO,High entropy (7.83 bits/byte), proper 16-byte block alignment, no obvious patterns in hex dump, chi-square 237.54 consistent with good encryption,95
+unknown_B.bin,ChaCha20,256,NO,Exceptional entropy (7.83 bits/byte), perfect 64-byte block alignment, chi-square 232.50 indicating excellent randomness,98
+unknown_C.bin,3DES,168,WEAK,High entropy (7.82 bits/byte), proper 8-byte block alignment, chi-square 228.16 indicates good confusion/diffusion but algorithm is deprecated due to meet-in-the-middle attacks,70
+unknown_D.bin,DES,56,VEAK,High entropy (7.81 bits/byte) and proper 8-byte block alignment, but algorithm is trivially breakable due to 56-bit key size (brute-force feasible),95
+unknown_E.bin,AES,256,NO,Entropy 7.82 bits/byte indicates excellent confusion/diffusion, proper 16-byte block alignment, chi-square 240.98 consistent with AES,N/A (AES-256 considered quantum-resistant and computationally secure)
+unknown_F.bin,ML-KEM,768,UNKNOWN,Entropy 7.82 bits/byte indicates good randomness for lattice-based crypto, chi-square 260.18 consistent with ML-KEM parameters, file size 1040 bytes matches expected ML-KEM-768 output,N/A (Lattice-based, believed quantum-resistant)
+unknown_G.bin,RSA+AES,2048+256,NO,Entropy 7.81 bits/byte indicates strong hybrid encryption, chi-square 258.71 consistent, file size 1040 bytes = 256-byte RSA-OAEP encrypted key + 784-byte AES-256 CT (with padding),Breakable only via RSA-2048 factorization (infeasible with current tech)

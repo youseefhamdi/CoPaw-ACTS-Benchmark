@@ -1,0 +1,106 @@
+Timestamp,File,Category,True_Algo,True_Keysize,Model,Tier,Response_Time_sec,Predicted_ALGO,Predicted_KEYSIZE,BREAKABLE,Accuracy_Binary,Notes,Mode
+2026-03-21T15:24:36.260829,DES_1kb.bin,Classical-Sym,DES,56,Gemini-3-Flash-Blind,Tier-2-Blind,3.54,AES-256,0,UNKNOWN,0.0,ALGO: AES-256,BLIND
+2026-03-21T15:24:39.771305,3DES_1kb.bin,Classical-Sym,3DES,168,Gemini-3-Flash-Blind,Tier-2-Blind,3.01,AES-256,0,UNKNOWN,0.0,ALGO: AES-256 KEYSIZE,BLIND
+2026-03-21T15:24:43.413194,AES128_1kb.bin,Modern-Sym,AES-128,128,Gemini-3-Flash-Blind,Tier-2-Blind,3.14,AES-256,0,UNKNOWN,1.0,ALGO: AES-256 KEYSIZE,BLIND
+2026-03-21T15:24:46.457159,AES256_1kb.bin,Modern-Sym,AES-256,256,Gemini-3-Flash-Blind,Tier-2-Blind,2.54,UNKNOWN,0,UNKNOWN,0.0,00 to 0xFF.         *,BLIND
+2026-03-21T15:24:49.926908,ChaCha20_1kb.bin,Modern-Sym,ChaCha20,256,Gemini-3-Flash-Blind,Tier-2-Blind,2.97,AES-128,0,UNKNOWN,0.0,ALGO: AES-128 KEYSIZE:,BLIND
+2026-03-21T15:24:53.532582,RSA2048_AES256_1kb.bin,Hybrid-Asym,RSA2048,2048,Gemini-3-Flash-Blind,Tier-2-Blind,3.1,AES-256,0,UNKNOWN,0.5,ALGO: AES-256 KEYSIZE:,BLIND
+2026-03-21T15:24:57.298644,ML_KEM_768_1kb.bin,PQC,ML-KEM,768,Gemini-3-Flash-Blind,Tier-2-Blind,3.26,AES-256,0,UNKNOWN,0.0,ALGO: AES-256 KEY,BLIND
+2026-03-21T15:25:00.448113,DES_1kb.bin,Classical-Sym,DES,56,Claude-Sonnet-4.5-Blind,Tier-3A-Blind,2.64,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:25:04.319201,3DES_1kb.bin,Classical-Sym,3DES,168,Claude-Sonnet-4.5-Blind,Tier-3A-Blind,3.37,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:25:08.186643,AES128_1kb.bin,Modern-Sym,AES-128,128,Claude-Sonnet-4.5-Blind,Tier-3A-Blind,3.36,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:25:12.066722,AES256_1kb.bin,Modern-Sym,AES-256,256,Claude-Sonnet-4.5-Blind,Tier-3A-Blind,3.37,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:25:15.312973,ChaCha20_1kb.bin,Modern-Sym,ChaCha20,256,Claude-Sonnet-4.5-Blind,Tier-3A-Blind,2.74,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:25:18.836785,RSA2048_AES256_1kb.bin,Hybrid-Asym,RSA2048,2048,Claude-Sonnet-4.5-Blind,Tier-3A-Blind,3.02,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:25:22.519496,ML_KEM_768_1kb.bin,PQC,ML-KEM,768,Claude-Sonnet-4.5-Blind,Tier-3A-Blind,3.18,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:25:26.238778,DES_1kb.bin,Classical-Sym,DES,56,Claude-Opus-4.5-Blind,Tier-3A-Blind,3.22,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:25:30.305783,3DES_1kb.bin,Classical-Sym,3DES,168,Claude-Opus-4.5-Blind,Tier-3A-Blind,3.56,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:25:39.664207,AES128_1kb.bin,Modern-Sym,AES-128,128,Claude-Opus-4.5-Blind,Tier-3A-Blind,8.85,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:25:42.576094,AES256_1kb.bin,Modern-Sym,AES-256,256,Claude-Opus-4.5-Blind,Tier-3A-Blind,2.4,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:25:45.838508,ChaCha20_1kb.bin,Modern-Sym,ChaCha20,256,Claude-Opus-4.5-Blind,Tier-3A-Blind,2.76,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:25:58.856823,RSA2048_AES256_1kb.bin,Hybrid-Asym,RSA2048,2048,Claude-Opus-4.5-Blind,Tier-3A-Blind,12.51,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:26:02.896356,ML_KEM_768_1kb.bin,PQC,ML-KEM,768,Claude-Opus-4.5-Blind,Tier-3A-Blind,3.53,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:26:06.520731,DES_1kb.bin,Classical-Sym,DES,56,GPT-OSS-20B-Blind,Tier-3A-Blind,3.12,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:26:09.956759,3DES_1kb.bin,Classical-Sym,3DES,168,GPT-OSS-20B-Blind,Tier-3A-Blind,2.93,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:26:13.557127,AES128_1kb.bin,Modern-Sym,AES-128,128,GPT-OSS-20B-Blind,Tier-3A-Blind,3.1,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:26:16.699571,AES256_1kb.bin,Modern-Sym,AES-256,256,GPT-OSS-20B-Blind,Tier-3A-Blind,2.64,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:26:20.317226,ChaCha20_1kb.bin,Modern-Sym,ChaCha20,256,GPT-OSS-20B-Blind,Tier-3A-Blind,3.11,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:26:24.397915,RSA2048_AES256_1kb.bin,Hybrid-Asym,RSA2048,2048,GPT-OSS-20B-Blind,Tier-3A-Blind,3.58,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:26:28.109719,ML_KEM_768_1kb.bin,PQC,ML-KEM,768,GPT-OSS-20B-Blind,Tier-3A-Blind,3.21,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:26:31.454361,DES_1kb.bin,Classical-Sym,DES,56,GPT-OSS-120B-Blind,Tier-3A-Blind,2.84,Unknown,0,NO,0.0,"ALGO: Unknown KEYSIZE: Unknown BREAKABLE: NO REASONING: The data aligns to 16‑byte boundaries, typical of block ciphers ",BLIND
+2026-03-21T15:26:35.063519,3DES_1kb.bin,Classical-Sym,3DES,168,GPT-OSS-120B-Blind,Tier-3A-Blind,3.11,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:26:38.479835,AES128_1kb.bin,Modern-Sym,AES-128,128,GPT-OSS-120B-Blind,Tier-3A-Blind,2.91,AES-256,256,UNKNOWN,1.0,ALGO: AES-256   KEYSIZE: 256   BREAKABLE,BLIND
+2026-03-21T15:26:41.439435,AES256_1kb.bin,Modern-Sym,AES-256,256,GPT-OSS-120B-Blind,Tier-3A-Blind,2.45,AES-128,128,NO,1.0,ALGO: AES-128 KEYSIZE: 128 BREAKABLE: NO REASONING: The ciphertext length,BLIND
+2026-03-21T15:26:47.693255,ChaCha20_1kb.bin,Modern-Sym,ChaCha20,256,GPT-OSS-120B-Blind,Tier-3A-Blind,5.75,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:26:50.926475,RSA2048_AES256_1kb.bin,Hybrid-Asym,RSA2048,2048,GPT-OSS-120B-Blind,Tier-3A-Blind,2.73,AES-128,128,NO,0.5,ALGO: AES-128 KEYSIZE: 128 BREAKABLE: NO,BLIND
+2026-03-21T15:26:53.809845,ML_KEM_768_1kb.bin,PQC,ML-KEM,768,GPT-OSS-120B-Blind,Tier-3A-Blind,2.38,Unknown,0,NO,0.0,"ALGO: Unknown KEYSIZE: Unknown BREAKABLE: NO REASONING: The data aligns to 16‑byte boundaries typical of AES blocks, but",BLIND
+2026-03-21T15:26:56.019325,DES_1kb.bin,Classical-Sym,DES,56,Mistral-Large-3-675B-Blind,Tier-3B-Blind,1.7,AES-256,256,NO,0.0,"ALGO: AES-256 KEYSIZE: 256 BREAKABLE: NO REASONING: 16-byte block alignment with high entropy (~7.98 bits/byte), uniform",BLIND
+2026-03-21T15:26:58.179343,3DES_1kb.bin,Classical-Sym,3DES,168,Mistral-Large-3-675B-Blind,Tier-3B-Blind,1.65,AES-256,256,NO,0.0,"ALGO: AES-256 KEYSIZE: 256 BREAKABLE: NO REASONING: 16-byte block alignment with high entropy (~7.98 bits/byte), uniform",BLIND
+2026-03-21T15:27:00.271668,AES128_1kb.bin,Modern-Sym,AES-128,128,Mistral-Large-3-675B-Blind,Tier-3B-Blind,1.59,Unknown,0,NO,0.0,"ALGO: Unknown KEYSIZE: 0 BREAKABLE: NO REASONING: High entropy (7.99 bits/byte), no block alignment detected. Byte distr",BLIND
+2026-03-21T15:27:02.755918,AES256_1kb.bin,Modern-Sym,AES-256,256,Mistral-Large-3-675B-Blind,Tier-3B-Blind,1.98,AES-256,256,NO,1.0,"ALGO: AES-256 KEYSIZE: 256 BREAKABLE: NO REASONING: High entropy (~7.99 bits/byte) with uniform byte distribution, no re",BLIND
+2026-03-21T15:27:05.175323,ChaCha20_1kb.bin,Modern-Sym,ChaCha20,256,Mistral-Large-3-675B-Blind,Tier-3B-Blind,1.91,Unknown,0,NO,0.0,ALGO: Unknown KEYSIZE: 0 BREAKABLE: NO REASONING: High entropy (~7.99 bits/byte) with uniform byte distribution. No clea,BLIND
+2026-03-21T15:27:07.588934,RSA2048_AES256_1kb.bin,Hybrid-Asym,RSA2048,2048,Mistral-Large-3-675B-Blind,Tier-3B-Blind,1.91,AES-128/AES-256/Unknown,128,NO,0.5,"ALGO: AES-128/AES-256/Unknown KEYSIZE: 128/256 BREAKABLE: NO REASONING: 16-byte block alignment, high entropy (~7.98 bit",BLIND
+2026-03-21T15:27:10.005844,ML_KEM_768_1kb.bin,PQC,ML-KEM,768,Mistral-Large-3-675B-Blind,Tier-3B-Blind,1.91,AES-256,256,NO,0.0,"ALGO: AES-256 KEYSIZE: 256 BREAKABLE: NO REASONING: 16-byte block alignment, near-ideal entropy (~7.99 bits/byte), unifo",BLIND
+2026-03-21T15:27:16.228924,DES_1kb.bin,Classical-Sym,DES,56,GLM-5-Blind,Tier-3B-Blind,5.72,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:27:20.840812,3DES_1kb.bin,Classical-Sym,3DES,168,GLM-5-Blind,Tier-3B-Blind,4.11,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:27:25.167225,AES128_1kb.bin,Modern-Sym,AES-128,128,GLM-5-Blind,Tier-3B-Blind,3.82,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:27:28.321670,AES256_1kb.bin,Modern-Sym,AES-256,256,GLM-5-Blind,Tier-3B-Blind,2.65,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:27:32.148765,ChaCha20_1kb.bin,Modern-Sym,ChaCha20,256,GLM-5-Blind,Tier-3B-Blind,3.32,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:27:35.704049,RSA2048_AES256_1kb.bin,Hybrid-Asym,RSA2048,2048,GLM-5-Blind,Tier-3B-Blind,3.05,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:27:39.280997,ML_KEM_768_1kb.bin,PQC,ML-KEM,768,GLM-5-Blind,Tier-3B-Blind,3.07,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:27:55.218008,DES_1kb.bin,Classical-Sym,DES,56,GLM-4.7-Blind,Tier-3B-Blind,15.43,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:27:57.929997,3DES_1kb.bin,Classical-Sym,3DES,168,GLM-4.7-Blind,Tier-3B-Blind,2.21,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:28:01.216906,AES128_1kb.bin,Modern-Sym,AES-128,128,GLM-4.7-Blind,Tier-3B-Blind,2.78,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:28:10.594617,AES256_1kb.bin,Modern-Sym,AES-256,256,GLM-4.7-Blind,Tier-3B-Blind,8.87,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:28:14.138668,ChaCha20_1kb.bin,Modern-Sym,ChaCha20,256,GLM-4.7-Blind,Tier-3B-Blind,3.04,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:28:17.616723,RSA2048_AES256_1kb.bin,Hybrid-Asym,RSA2048,2048,GLM-4.7-Blind,Tier-3B-Blind,2.98,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:28:21.230542,ML_KEM_768_1kb.bin,PQC,ML-KEM,768,GLM-4.7-Blind,Tier-3B-Blind,3.11,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:28:54.549468,DES_1kb.bin,Classical-Sym,DES,56,Nemotron-3-Super-Blind,Tier-3B-Blind,32.81,Unknown,0,NO,0.0,ALGO: Unknown KEYSIZE: 0 BREAKABLE: NO REASONING: No repeating block patterns or alignment to common cipher block sizes ,BLIND
+2026-03-21T15:29:19.333398,3DES_1kb.bin,Classical-Sym,3DES,168,Nemotron-3-Super-Blind,Tier-3B-Blind,24.28,Unknown,0,NO,0.0,ALGO: Unknown KEYSIZE: 0 BREAKABLE: NO REASONING: No repeating patterns or block alignment suggest non-block cipher; ent,BLIND
+2026-03-21T15:29:56.164029,AES128_1kb.bin,Modern-Sym,AES-128,128,Nemotron-3-Super-Blind,Tier-3B-Blind,36.33,Unknown,128,NO,0.0,"ALGO: Unknown KEYSIZE: 128 BREAKABLE: NO REASONING: Block size alignment suggests 16-byte blocks (AES-like), but entropy",BLIND
+2026-03-21T15:30:18.554934,AES256_1kb.bin,Modern-Sym,AES-256,256,Nemotron-3-Super-Blind,Tier-3B-Blind,21.89,Unknown,128,NO,0.0,ALGO: Unknown KEYSIZE: 128 BREAKABLE: NO REASONING: No repeating block patterns suggest block cipher modes like ECB are ,BLIND
+2026-03-21T15:30:31.510270,ChaCha20_1kb.bin,Modern-Sym,ChaCha20,256,Nemotron-3-Super-Blind,Tier-3B-Blind,12.45,Unknown,128,NO,0.0,"ALGO: Unknown KEYSIZE: 128 BREAKABLE: NO REASONING: Block size alignment suggests 16-byte blocks (AES-like), but entropy",BLIND
+2026-03-21T15:30:57.072723,RSA2048_AES256_1kb.bin,Hybrid-Asym,RSA2048,2048,Nemotron-3-Super-Blind,Tier-3B-Blind,25.06,AES-256,256,NO,0.5,ALGO: AES-256 KEYSIZE: 256 BREAKABLE: NO REASONING: Block size alignment suggests 16-byte blocks consistent with AES; en,BLIND
+2026-03-21T15:31:06.119491,ML_KEM_768_1kb.bin,PQC,ML-KEM,768,Nemotron-3-Super-Blind,Tier-3B-Blind,8.54,Unknown,0,NO,0.0,ALGO: Unknown KEYSIZE: 0 BREAKABLE: NO REASONING: No repeating patterns or block alignment suggest non-block cipher; ent,BLIND
+2026-03-21T15:31:07.531464,DES_1kb.bin,Classical-Sym,DES,56,Nemotron-3-Nano-30B-Blind,Tier-3B-Blind,0.9,[Unknown],0,UNKNOWN,0.0,"ALGO: [Unknown] KEYSIZE: [bits] BREAKABLE: [PARTIALLY] REASONING: [Block size aligns with 8-byte boundaries, suggesting ",BLIND
+2026-03-21T15:31:09.379535,3DES_1kb.bin,Classical-Sym,3DES,168,Nemotron-3-Nano-30B-Blind,Tier-3B-Blind,1.34,[Unknown],0,UNKNOWN,0.0,ALGO: [Unknown] KEYSIZE: [bits] BREAKABLE: [PARTIALLY] REASONING: [Block alignment shows 16-byte structure; entropy is l,BLIND
+2026-03-21T15:31:11.155180,AES128_1kb.bin,Modern-Sym,AES-128,128,Nemotron-3-Nano-30B-Blind,Tier-3B-Blind,1.27,[AES-256],0,UNKNOWN,1.0,ALGO: [AES-256]   KEYSIZE: [256]   BREAKABLE: [NO]   REASONING: [High entropy (~7.9 bits/byte) and non-repeating 16-byte,BLIND
+2026-03-21T15:31:12.568082,AES256_1kb.bin,Modern-Sym,AES-256,256,Nemotron-3-Nano-30B-Blind,Tier-3B-Blind,0.91,[Unknown],0,UNKNOWN,0.0,ALGO: [Unknown]   KEYSIZE: [bits]   BREAKABLE: [PARTIALLY]   REASONING: [Block alignment shows 16-byte patterns suggesti,BLIND
+2026-03-21T15:31:13.938264,ChaCha20_1kb.bin,Modern-Sym,ChaCha20,256,Nemotron-3-Nano-30B-Blind,Tier-3B-Blind,0.87,[AES-128],0,UNKNOWN,0.0,ALGO: [AES-128] KEYSIZE: [128] BREAKABLE: [YES] REASONING: [Block alignment shows 16-byte patterns consistent with AES-1,BLIND
+2026-03-21T15:31:15.387645,RSA2048_AES256_1kb.bin,Hybrid-Asym,RSA2048,2048,Nemotron-3-Nano-30B-Blind,Tier-3B-Blind,0.94,[AES-256],0,UNKNOWN,0.5,"ALGO: [AES-256] KEYSIZE: [256] BREAKABLE: [NO] REASONING: [High entropy (7.98 bits/byte), non-repeating 16-byte blocks s",BLIND
+2026-03-21T15:31:16.785956,ML_KEM_768_1kb.bin,PQC,ML-KEM,768,Nemotron-3-Nano-30B-Blind,Tier-3B-Blind,0.89,[AES-128],0,UNKNOWN,0.0,"ALGO: [AES-128] KEYSIZE: [128] BREAKABLE: [YES] REASONING: [Block alignment shows 16-byte patterns (e.g., 0xdbad...), en",BLIND
+2026-03-21T15:31:18.357701,DES_1kb.bin,Classical-Sym,DES,56,Ministral-3-14B-Blind,Tier-3B-Blind,1.07,[Unknown],0,UNKNOWN,0.0,``` ALGO: [Unknown] KEYSIZE: [N/A] BREAKABLE: [PARTIALLY] REASONING: [No clear block alignment (entropy: ~7.8 bits/byte ,BLIND
+2026-03-21T15:31:20.327383,3DES_1kb.bin,Classical-Sym,3DES,168,Ministral-3-14B-Blind,Tier-3B-Blind,1.47,[Unknown],0,UNKNOWN,0.0,"``` ALGO: [Unknown] KEYSIZE: [N/A] BREAKABLE: [PARTIALLY] REASONING: No clear block alignment (entropy: 7.95 bits/byte, ",BLIND
+2026-03-21T15:31:22.223441,AES128_1kb.bin,Modern-Sym,AES-128,128,Ministral-3-14B-Blind,Tier-3B-Blind,1.39,[Unknown],0,UNKNOWN,0.0,"``` ALGO: [Unknown] KEYSIZE: [N/A] BREAKABLE: [PARTIALLY] REASONING: No clear block alignment (entropy: 7.95 bits/byte, ",BLIND
+2026-03-21T15:31:23.844670,AES256_1kb.bin,Modern-Sym,AES-256,256,Ministral-3-14B-Blind,Tier-3B-Blind,1.12,[Unknown],0,UNKNOWN,0.0,``` ALGO: [Unknown] KEYSIZE: [N/A] BREAKABLE: [PARTIALLY] REASONING: [No clear block alignment (entropy: 7.85 bits/byte ,BLIND
+2026-03-21T15:31:25.416499,ChaCha20_1kb.bin,Modern-Sym,ChaCha20,256,Ministral-3-14B-Blind,Tier-3B-Blind,1.07,[Unknown],0,UNKNOWN,0.0,"``` ALGO: [Unknown] KEYSIZE: [N/A] BREAKABLE: [PARTIALLY] REASONING: No clear block alignment (entropy: 7.85 bits/byte, ",BLIND
+2026-03-21T15:31:26.947575,RSA2048_AES256_1kb.bin,Hybrid-Asym,RSA2048,2048,Ministral-3-14B-Blind,Tier-3B-Blind,1.02,[Unknown],0,UNKNOWN,0.0,"``` ALGO: [Unknown] KEYSIZE: [N/A] BREAKABLE: [PARTIALLY] REASONING: [No clear block alignment (entropy: 7.85 bits/byte,",BLIND
+2026-03-21T15:31:28.798472,ML_KEM_768_1kb.bin,PQC,ML-KEM,768,Ministral-3-14B-Blind,Tier-3B-Blind,1.34,[Unknown],0,UNKNOWN,0.0,"``` ALGO: [Unknown] KEYSIZE: [N/A] BREAKABLE: [PARTIALLY] REASONING: [No clear block alignment (entropy: 7.95 bits/byte,",BLIND
+2026-03-21T15:31:34.788967,DES_1kb.bin,Classical-Sym,DES,56,Kimi-K2.5-Blind,Tier-3C-Blind,5.49,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:31:40.820187,3DES_1kb.bin,Classical-Sym,3DES,168,Kimi-K2.5-Blind,Tier-3C-Blind,5.53,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:31:45.506813,AES128_1kb.bin,Modern-Sym,AES-128,128,Kimi-K2.5-Blind,Tier-3C-Blind,4.18,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:31:54.135545,AES256_1kb.bin,Modern-Sym,AES-256,256,Kimi-K2.5-Blind,Tier-3C-Blind,8.12,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:31:59.939910,ChaCha20_1kb.bin,Modern-Sym,ChaCha20,256,Kimi-K2.5-Blind,Tier-3C-Blind,5.3,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:32:03.845706,RSA2048_AES256_1kb.bin,Hybrid-Asym,RSA2048,2048,Kimi-K2.5-Blind,Tier-3C-Blind,3.4,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:32:09.611795,ML_KEM_768_1kb.bin,PQC,ML-KEM,768,Kimi-K2.5-Blind,Tier-3C-Blind,5.26,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:32:14.268753,DES_1kb.bin,Classical-Sym,DES,56,MiniMax-M2.5-Blind,Tier-3C-Blind,4.15,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:32:19.318721,3DES_1kb.bin,Classical-Sym,3DES,168,MiniMax-M2.5-Blind,Tier-3C-Blind,4.55,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:32:23.365602,AES128_1kb.bin,Modern-Sym,AES-128,128,MiniMax-M2.5-Blind,Tier-3C-Blind,3.54,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:32:27.443980,AES256_1kb.bin,Modern-Sym,AES-256,256,MiniMax-M2.5-Blind,Tier-3C-Blind,3.57,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:32:31.331252,ChaCha20_1kb.bin,Modern-Sym,ChaCha20,256,MiniMax-M2.5-Blind,Tier-3C-Blind,3.38,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:32:35.257623,RSA2048_AES256_1kb.bin,Hybrid-Asym,RSA2048,2048,MiniMax-M2.5-Blind,Tier-3C-Blind,3.42,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:32:39.588789,ML_KEM_768_1kb.bin,PQC,ML-KEM,768,MiniMax-M2.5-Blind,Tier-3C-Blind,3.82,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:32:51.108254,DES_1kb.bin,Classical-Sym,DES,56,MiniMax-M2.7-Blind,Tier-3C-Blind,11.02,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:33:02.299533,3DES_1kb.bin,Classical-Sym,3DES,168,MiniMax-M2.7-Blind,Tier-3C-Blind,10.68,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:33:10.473340,AES128_1kb.bin,Modern-Sym,AES-128,128,MiniMax-M2.7-Blind,Tier-3C-Blind,7.67,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:33:21.396340,AES256_1kb.bin,Modern-Sym,AES-256,256,MiniMax-M2.7-Blind,Tier-3C-Blind,10.42,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:33:35.449929,ChaCha20_1kb.bin,Modern-Sym,ChaCha20,256,MiniMax-M2.7-Blind,Tier-3C-Blind,13.55,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:33:43.325265,RSA2048_AES256_1kb.bin,Hybrid-Asym,RSA2048,2048,MiniMax-M2.7-Blind,Tier-3C-Blind,7.36,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:33:52.950506,ML_KEM_768_1kb.bin,PQC,ML-KEM,768,MiniMax-M2.7-Blind,Tier-3C-Blind,9.12,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:33:55.877812,DES_1kb.bin,Classical-Sym,DES,56,Qwen3.5-397B-Blind,Tier-3C-Blind,2.42,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:33:58.472625,3DES_1kb.bin,Classical-Sym,3DES,168,Qwen3.5-397B-Blind,Tier-3C-Blind,2.09,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:34:00.855651,AES128_1kb.bin,Modern-Sym,AES-128,128,Qwen3.5-397B-Blind,Tier-3C-Blind,1.88,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:34:03.760287,AES256_1kb.bin,Modern-Sym,AES-256,256,Qwen3.5-397B-Blind,Tier-3C-Blind,2.4,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:34:06.319639,ChaCha20_1kb.bin,Modern-Sym,ChaCha20,256,Qwen3.5-397B-Blind,Tier-3C-Blind,2.06,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:34:09.268558,RSA2048_AES256_1kb.bin,Hybrid-Asym,RSA2048,2048,Qwen3.5-397B-Blind,Tier-3C-Blind,2.45,UNKNOWN,0,UNKNOWN,0.0,,BLIND
+2026-03-21T15:34:11.969168,ML_KEM_768_1kb.bin,PQC,ML-KEM,768,Qwen3.5-397B-Blind,Tier-3C-Blind,2.2,UNKNOWN,0,UNKNOWN,0.0,,BLIND
